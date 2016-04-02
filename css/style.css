@@ -1,0 +1,633 @@
+@font-face {
+    font-family: 'Novecentosanswide';
+    src: url(fonts/Novecentosanswide-DemiBold.otf);
+}
+@font-face {
+    font-family: 'Playfair-Black';
+    src: url(fonts/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family: 'Playfair-Regular';
+    src: url(fonts/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'Playfair-Italic';
+    src: url(fonts/PlayfairDisplay-Italic.otf);
+}
+body{
+	letter-spacing: 0.5px;
+}
+/*General*/
+.wrap{
+	width: 950px;
+	margin: 0 auto;
+}
+.margin-top-m23{
+	margin-top: -23px;
+}
+.margin-top-20{
+	margin-top: 20px;
+}
+.margin-top-50{
+	margin-top: 50px;
+}
+.margin-top-170{
+	margin-top: 170px;
+}
+.margin-bottom-50{
+	margin-top: 50px;
+}
+.padding-top-20{
+	padding-top: 20px;
+}
+.padding-top-50{
+	padding-top: 50px;
+}
+.padding-bottom-20{
+		padding-bottom: 20px;
+	}
+.padding-bottom-50{
+	padding-bottom: 50px;
+}
+.padding-30{
+	padding: 30px;
+}
+.grid-550{
+	width:550px;
+}
+.grid-555{
+	width: 555px;
+}
+.grid-595{
+	width: 574px;
+}
+.width-100{
+	width: 100%;
+}
+.clear-both{
+	clear: both;
+}
+.fright{
+	float: right;
+}
+.fleft{
+	float: left;
+}
+.width-33{
+	width: 32%;
+	display: inline-block;
+}
+.line-15{
+	line-height: 1.5em;
+}
+.line-2{
+	line-height: 2em;
+}
+p::first-letter{
+	font-size: 48px;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+/*****fonts****/
+.novecentosanswide{
+	font-family: "Novecentosanswide";
+}
+.playfair-black{
+	font-family: "Playfair-Black";
+}
+.playfair-regular{
+	font-family: "Playfair-Regular";
+}
+.playfair-italic{
+	font-family: "Playfair-Italic";
+}
+.font-white{
+	color: #fff;
+}
+.font-black{
+	color: #000;
+}
+.font-beige{
+	color: #c8a881;
+}
+.size36{
+	font-size: 36px;
+}
+.size32{
+	font-size: 32px;
+}
+.size18{
+	font-size: 18px;
+}
+.size16{
+	font-size: 16px;
+}
+.size26{
+	font-size: 26px;
+}
+
+/*section-1*/
+#section-1{
+	background: url("../images/art-1.jpg") no-repeat;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+}
+.book{
+	margin-top:26px;
+	margin-right:-40px;
+}
+#section-1 ul{
+	display: inline-block;
+}
+/*section-2*/
+#section-2{
+	background: #fff;
+	width: 100%;
+	
+}
+.img-section-2{
+	background: url("../images/art-2.jpg") no-repeat;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 40%;
+	height: 503px;
+	float: right;
+}
+/*section-3*/
+#section-3{
+	background: url("../images/art-3.jpg") no-repeat;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 100%;
+	height: 630px;
+	padding-bottom: 50px;
+}
+/*section-4*/
+#section-4{
+	background-color: #fff;
+	width: 100%;
+}
+/*section-5*/
+.img-1-section-5{
+	background: url("../images/krynolina-oswiadczyny.jpg") no-repeat 50% 100%;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 33.33%;
+	height: 764px;
+}
+.img-2-section-5{
+	background: url("../images/hipnotyzer.jpg") no-repeat 50% 100%;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 33.33%;
+	height: 764px;
+}
+.img-3-section-5{
+	background: url("../images/radosc-zycia.jpg") no-repeat 50% 100%;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+	width: 33.33%;
+	height: 764px;
+}
+/*section-6*/
+img.book-3{
+	padding-left: 11px;
+	margin-top: -30px;
+}
+.book-3-left{
+		float: left;
+	}
+/*section-7*/
+#section-7{
+	background-color: #302626;
+	width: 100%;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+.form-col-1{
+	width:750px;
+	margin:0 auto;
+}
+input{
+	background-color: #302626;
+	border: none;
+	font-family: "Playfair-Regular";
+	color: #fff;
+	border-bottom: 1px solid #5c5252;
+	font-size: 18px;
+}
+ input[placeholder]{
+ 	color: #fff5f5 !important;
+
+ }
+.dane-rozliczeniowe-100{
+	width: 100%;
+}
+.dane-rozliczeniowe-40{
+	width: 46%;
+}
+input[type=submit]{
+	border: 2px solid #c6af86;
+	padding: 5px;
+	width: 260px;
+	cursor: pointer;
+}
+.border-2-solid{
+	border-top: 2px solid #c6af86;
+}
+/**
+ * Checkbox Five
+ */
+
+input[type="checkbox"]{
+	display: none;
+}
+/*checkbox********************/
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 0px;
+  width: 17px; height: 17px;
+  border: 2px solid #C6AF86;
+  background: #302626;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 14px;
+  color: ;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #302626;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted #C6AF86;
+}
+.form-col-2{
+	width: 67%;
+	margin: 0 auto;
+}
+footer{
+	background-color: #302626;
+	width: 100%;
+}
+footer a{
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+.strikeout {
+    position: relative;
+}
+.strikeout::after {
+    border-bottom: 2px solid #fff;
+    content: "";
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 55%;
+}
+@media only screen and (max-width: 1024px){
+	.wrap{
+		width: 60%;
+	}
+	.margin-0-auto{
+		width: 50%;
+		margin: 0 auto;
+	}
+	#section-1{
+		height: 970px;
+	}
+	.grid-550{
+		width: 90%;
+	}
+	.size18{
+		font-size: 15px;
+	}
+	.size26{
+		font-size: 17px;
+	}
+	.book{
+		margin-top:0;
+		margin-right: 0; 
+	}
+	.img-section-2{
+		width: 100%;
+	}
+	.margin-top-50{
+		margin-top: 25px;
+	}
+	.wlodek{
+		width: 150px;
+	}
+	.img-3-section-5,
+	.img-2-section-5,
+	.img-1-section-5{
+		background-position: 50% 31%;
+	}
+	.img-3-section-5{
+		width: 100%;
+	}
+	.img-1-section-5,
+	.img-2-section-5{
+		width: 50%;
+	}
+	.book-2{
+		width: 360px;
+	}
+	.width-100{
+		width: 90%;
+	}
+	.line-2{
+		line-height: 1.3em;
+	}
+	p:first-letter{
+		font-size: 30px;
+	}
+	img.book-3{
+		width: 75%;
+		padding-bottom: 20px;
+	}
+	.form-col-1{
+		width: 100%;
+	}
+	.size36{
+		font-size: 27px;
+	}
+	input{
+		font-size: 14px;
+	}
+	.img-2-section-5, 
+	.img-1-section-5, 
+	.img-3-section-5{
+		height: 400px;
+	}
+	.grid-595{
+		width: 90%;
+	}
+	.checkboxFive{
+		margin: 20px 42px;
+	}
+	.checkboxFive label{
+		left: 6px;
+	}
+	.book{
+		width: 177px;
+	}
+	.fright{
+		float: none;
+	}
+	.book-3-left{
+		float: none;
+	}
+	.padding-bottom-50{
+		padding-bottom: 25px;
+	}
+	.padding-top-50{
+		padding-top: 25px;
+	}
+	.book-2{
+		width: 300px;
+	}
+	.size16{
+		font-size: 14px;
+	}
+	.width-33{
+		width: 32%;
+	}
+	.wrap footer{
+		width: 100%;
+	}
+	.form-col-2{
+		width: 600px;
+	}
+	#section-3{
+		height: auto;
+	}
+
+
+
+}
+@media only screen and (max-width: 700px){
+	.wrap{
+		width: 90%;
+	}
+	.grid-550{
+		width: 100%;
+	}
+	.size36{
+		font-size: 23px;
+	}
+	.size32{
+		font-size: 23px;
+	}
+	.size18{
+		font-size: 14px;
+	}
+	.size16{
+		font-size: 14px;
+	}
+	.width-100{
+		width: 70%;
+	}
+	.logo{
+		width: 100px;
+	}
+	.img-2-section-5,
+	.img-1-section-5{
+		width: 100%;
+	}
+	.form-col-1{
+		width: 90%;
+	}
+	#section-1{
+		height: 775px;
+	}
+	.email, .tel{
+		padding-left: 0;
+	}
+	.checkboxFive label{
+		left: 10px;
+	}
+	.book{
+		width: 164px;
+	}
+	.book-2{
+		width: 250px;
+	}
+	.stripe{
+		width: 67px;
+	}
+	.form-col-1{
+		width: 100%;
+	}
+	.width-33{
+		display: 0;
+		width: 90%;
+		padding: 5px;
+	}
+	.form-col-2{
+		width: 316px;
+	}
+	footer .text-left,
+	footer .text-center,
+	footer .text-right{
+		text-align: center;
+	}
+	
+}
+@media only screen and (max-width: 400px){
+	#section-1{
+		height: 665px;
+	}
+	.wrap{
+		width: 90%;
+	}
+	.grid-550{
+		width: 100%;
+	}
+	.width-100{
+		width: 100%;
+	}
+	.size36{
+		font-size: 20px;
+	}
+	.size32{
+		font-size: 21px;
+	}
+	.size18{
+		font-size: 12px;
+	}
+	.size16{
+		font-size: 12px;
+	}
+	.size36{
+		font-size: 15px;
+	}
+	.size26{
+		font-size: 12px;
+	}
+	.logo{
+		width: 80px;
+	}
+	p:first-letter{
+		font-size: 19px;
+	}
+	.book{
+		width: 130px;
+	}
+	.book-2{
+		width: 160px;
+	}
+	
+	.padding-bottom-50{
+		padding-bottom: 25px;
+	}
+	input{
+		font-size: 12px;
+	}
+	.form-col-1{
+		width: 100%;
+	}
+	.dane-rozliczeniowe-40,
+	.dane-rozliczeniowe-100{
+		width: 100%;
+	}
+	input[type="submit"]{
+		width: 150px;
+	}
+	.img-2-section-5, 
+	.img-1-section-5,
+	.img-3-section-5{
+		height: 367px;
+	}
+	.margin-top-170{
+		margin-top: 75px;
+	}
+	.grid-555{
+		width: 100%;
+	}
+	.margin-top-50{
+		margin-top: 25px;
+	}
+	.checkboxFive label{
+		left: 57px;
+		top: 40px;	
+	}
+	.stripe{
+		width: 43px;
+	}
+	.padding-top-50{
+		padding-top: 30px;
+	}
+	.wlodek{
+		width: 115px;
+	}
+	.form-col-2{
+		width: 210px;
+	}
+
+
+
+
+}
+
+
+
+
