@@ -153,7 +153,7 @@ p::first-letter{
 #section-2{
 	background: #fff;
 	width: 100%;
-	
+
 }
 .img-section-2{
 	background: url("../images/art-2.jpg") no-repeat;
@@ -326,8 +326,13 @@ footer{
 	background-color: #302626;
 	width: 100%;
 }
+footer .h5{
+	  padding: 20px;
+  font-size: 13px;
+}
 footer a{
 	text-decoration: none;
+	color: #fff;
 }
 footer a:hover{
 	text-decoration: underline;
@@ -365,7 +370,7 @@ footer a:hover{
 	}
 	.book{
 		margin-top:0;
-		margin-right: 0; 
+		margin-right: 0;
 	}
 	.img-section-2{
 		width: 100%;
@@ -413,8 +418,8 @@ footer a:hover{
 	input{
 		font-size: 14px;
 	}
-	.img-2-section-5, 
-	.img-1-section-5, 
+	.img-2-section-5,
+	.img-1-section-5,
 	.img-3-section-5{
 		height: 400px;
 	}
@@ -530,7 +535,7 @@ footer a:hover{
 	footer .text-right{
 		text-align: center;
 	}
-	
+
 }
 @media only screen and (max-width: 400px){
 	#section-1{
@@ -575,7 +580,7 @@ footer a:hover{
 	.book-2{
 		width: 160px;
 	}
-	
+
 	.padding-bottom-50{
 		padding-bottom: 25px;
 	}
@@ -592,7 +597,7 @@ footer a:hover{
 	input[type="submit"]{
 		width: 150px;
 	}
-	.img-2-section-5, 
+	.img-2-section-5,
 	.img-1-section-5,
 	.img-3-section-5{
 		height: 367px;
@@ -608,7 +613,7 @@ footer a:hover{
 	}
 	.checkboxFive label{
 		left: 57px;
-		top: 40px;	
+		top: 40px;
 	}
 	.stripe{
 		width: 43px;
